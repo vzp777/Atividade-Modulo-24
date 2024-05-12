@@ -1,0 +1,38 @@
+{
+  "name": "sample-joi-contract-testing",
+  "version": "1.0.0",
+  "description": "Testes de Contrato com Joi",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --opts test/schemas/mocha.opts test/schemas/**/*.js"
+  },
+  "author": "luizmenon",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  },
+  "devDependencies": {
+    "joi": "^14.3.1",
+    "joi-assert": "^0.0.3",
+    "mocha": "^6.0.2",
+    "mochawesome": "^3.1.1",
+    "supertest": "^4.0.2"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lewiz-QA/atividade_24_ebac.git"
+  },
+  "keywords": [
+    "joi"
+  ],
+  "bugs": {
+    "url": "https://github.com/Lewiz-QA/atividade_24_ebac/issues"
+  },
+  "homepage": "https://github.com/Lewiz-QA/atividade_24_ebac#readme"
+}
